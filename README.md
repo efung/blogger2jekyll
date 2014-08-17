@@ -1,3 +1,10 @@
+# Modifications in efung's fork
+
+- Extract a post thumbnail from first img
+- Extract first part of post as an excerpt
+- Insert tags from categories into YAML front matter
+- Change date format for comments
+
 # Blogger2Jekyll
 
 This tool will help you migrate from Blogger / Blogspot to any
