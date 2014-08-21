@@ -43,7 +43,7 @@
   }
 
   function parseFile(err, data) {
-    b2j.parse(data, eachPost, { prefix: '', wrapRaw: true });
+    b2j.parse(data, eachPost, { prefix: '', wrapRaw: true, skipComments: true });
   }
   
   function readFile(err) {
